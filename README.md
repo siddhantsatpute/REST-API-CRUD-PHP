@@ -6,7 +6,7 @@ This project is MIT licensed.
 
 ## **Author - Siddhant Satpute**
 
-Hello friends I'm Siddhant Satpute. Here I'm sharing how to create or develop the REST API in PHP, which can helps begginers to learn the basics of REST framework. Now a days many mobile app developer using this framework to develop their apps. Some of them using basic CRUD operations only. 
+Hello friends I'm Siddhant Satpute. Here I'm sharing how to create or develop the REST API in PHP, which can helps beginners to learn the basics of REST framework. Now a days many mobile app developer using this framework to develop their apps. Some of them using basic CRUD operations only. 
 
 # **ABOUT :-**
 
@@ -34,6 +34,7 @@ Suppose you make a request for the details of a student named Akshay to the API 
 		"school": "St. Thomas School, Bhopal",
             
 		"Board": "CBSE",
+		
 		"Address": "H-264, Shanti Vihar, TT Nagar, Bhopal"    
 	 }
     
@@ -58,14 +59,7 @@ Now after this as I'm using XAMPP server, also I'm recommend you to use it for t
 Now in XAMPP create database with name 'college_students'. Further create table 'student_details' with 5 columns/attributes i.e. sr_no, roll_no, name, standard, dob, school, board, and address.
 
 where, 	
-	sr_no is of type INT, auto-incremented.
-	roll_no is of type VARCHAR.
-	name is of type VARCHAR.
-	standard is of type VARCHAR.
-	dob is of type DATE as it stores the Date of Birth of the student.
-	school is of type of VARCHAR.
-	board is of type of VARCHAR.
-	address is of type of VARCHAR.
+sr_no is of type INT, auto-incremented, roll_no is of type VARCHAR, name is of type VARCHAR, standard is of type VARCHAR, dob is of type, DATE as it stores the Date of Birth of the student, school is of type of VARCHAR, board is of type of VARCHAR and address is of type of VARCHAR.
 
 *Note : You can take the length of the attributes as you desired because I've not mentioned it.*
 
